@@ -1,0 +1,112 @@
+/*
+Kolorki:
+- #ef7c4a : jasny kolor użyty w .bar
+- #e68d67 - oczojebny na przyciski .btn-orange
+- #d06a3e - #c16b46 - na :hovery
+
+*/
+
+nav.navbar {
+    margin: 0;
+}
+
+#hero{
+    height: 75vh;
+    background: url(../img/background.jpg) center fixed;
+    background-size: cover;
+}
+.hero-text{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bar{
+    background: #f1efef;
+    min-height: 25vh;
+    box-shadow: 0px 1px 10px #00000063;
+}
+
+.bar img{
+    max-width: 120px;
+    margin: 50px auto;
+}
+
+#experience{
+    background: url(../img/background2.jpg) no-repeat left fixed;
+    background-size: cover;
+    box-shadow: inset 0px 1px 10px #00000063;
+}
+.experience-content{
+    margin: 10rem 0;
+    padding: 30px;
+    background: #0e568a3d;
+    border-radius: 60px;
+}
+.experience-content h2{
+    margin-bottom: 30px;
+}
+#experience table th, #experience table td{
+    padding: 10px 20px;
+    min-width: 12rem;
+    border-color: #0e568a63;
+}
+@media(max-width: 480px){
+    #experience table th, #experience table td{
+        padding: 10px 3px;
+        min-width: 5rem;
+    }
+    .experience-content{
+        padding: 10px;
+    }
+
+}
+
+#experience table{
+    border: 0;
+}
+
+#experience .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #0e568a3d;
+}
+
+#about{
+    background: #fdfdfd;
+    padding-bottom: 10rem;
+}
+
+#about h2{
+    text-align: center;
+    margin: 10rem 0 3rem;
+}
+
+.about{
+    margin: 10rem 0 0;
+    padding: 30px;
+    background: #0e568a3d;
+    border-radius: 60px;
+}
+
+.footer {
+    color: #fff;
+    background: #2c2c2f;
+}
+.footer p{
+    padding: 10px 20px;
+}
+
+
+.btn-orange{
+    background: #e68d67;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 9px 20px;
+}
+
+.btn-orange:hover, .btn-orange:focus {
+    background: #d06a3e;
+    color: #fff;
+}
+
+
