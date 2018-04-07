@@ -1,8 +1,7 @@
 /*
 Kolorki:
-- #ef7c4a : jasny kolor użyty w .bar
-- #e68d67 - oczojebny na przyciski .btn-orange
-- #d06a3e - #c16b46 - na :hovery
+- #43b2e7 - niebieski na .btn-blue
+- #3296c5 - niebieski na .btn-blue:hover
 
 */
 
@@ -96,17 +95,23 @@ nav.navbar {
 }
 
 
-.btn-orange{
-    background: #e68d67;
+.btn-blue{
+    background: #43b2e7;
     color: #fff;
     font-weight: bold;
     font-size: 1em;
     margin: 9px 20px;
 }
 
-.btn-orange:hover, .btn-orange:focus {
-    background: #d06a3e;
+.btn-blue:hover, .btn-blue:focus {
+    background: #3296c5;
     color: #fff;
+}
+
+.modal-header{
+    background: #43b2e7;
+    color: #fff;
+    font-weight: bold;
 }
 
 
