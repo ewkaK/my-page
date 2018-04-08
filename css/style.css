@@ -5,6 +5,10 @@ Kolorki:
 
 */
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav.navbar {
     margin: 0;
 }
@@ -87,11 +91,35 @@ nav.navbar {
 }
 
 .footer {
-    color: #fff;
-    background: #2c2c2f;
+    color: #ccc9c9;
+    background: #151517;
 }
-.footer p{
+.footer-content{
+    background: linear-gradient(#2b2b2b, #151517);
+    padding-top: 5px;
+}
+.footer-list{
+    list-style: none;
+    display: inline-block;
     padding: 10px 20px;
+    margin: 0;
+}
+.footer-list li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+.footer a{
+    color: #ccc9c9;
+}
+.footer h3, .footer h4, .footer h5 {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.footer-copyright p{
+    padding: 5px 20px;
+    margin: 0;
+    font-size: 0.9em;
 }
 
 
