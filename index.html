@@ -48,27 +48,34 @@
         <div class="row">
             <div style="height: 30vh"></div>
             <div class="hero-text">
-                <h1 class="hero-h1">Witaj na moim portfolio!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid architecto, atque debitis dolore eius harum hic, ipsum iste laudantium magnam natus non pariatur quisquam quo reiciendis repudiandae sit vitae.</p>
+                <h1 class="hero-h1">Witaj w moim portfolio!</h1>
+                <p>Nazywam się Ewa Klebba, jestem świeżo upieczonym <span>junior front-end developerem</span>. Szukam swojej pierwszej pracy w branży. Ukończyłam boot camp dzienny infoShare Academy. W czasie kursu wraz ze swoim czteroosobowym zespołem stworzyliśmy landing page, grę napisaną całkowicie w czystym JS, oraz aplikację w Reactie.</p>
             </div>
         </div>
     </div>
 </header>
 
 <main>
+    <!--technology bar-->
     <div class="container-fluid bar">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <img src="img/html5.png" alt="logo html5" class="img-responsive" />
             </div>
-            <div class="col-sm-3">
-                <img src="img/css3.png" alt="logo html5" class="img-responsive" />
+            <div class="col-sm-2">
+                <img src="img/css3.png" alt="logo css3" class="img-responsive" />
             </div>
-            <div class="col-sm-3">
-                <img src="img/bootstrap.png" alt="logo html5" class="img-responsive" />
+            <div class="col-sm-2">
+                <img src="img/bootstrap.png" alt="logo bootstrap" class="img-responsive" />
             </div>
-            <div class="col-sm-3">
-                <img src="img/js.png" alt="logo html5" class="img-responsive" />
+            <div class="col-sm-2">
+                <img src="img/js.png" alt="logo javaScript" class="img-responsive" />
+            </div>
+            <div class="col-sm-2">
+                <img src="img/react.png" alt="logo react" class="img-responsive" />
+            </div>
+            <div class="col-sm-2">
+                <img src="img/git.png" alt="logo github" class="img-responsive" />
             </div>
         </div>
     </div>
@@ -111,6 +118,7 @@
         </div>
     </div>
 
+    <!--About-->
     <div class="container-fluid" id="about">
         <div class="row">
             <div class="col-md-2"></div>
@@ -125,38 +133,56 @@
                 <img src="img/my-foto.jpg" alt="my-foto" class="img-responsive thumbnail">
             </div>
             <div class="col-xs-12 col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim sagittis sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam et sodales nunc. Vestibulum vitae arcu metus. Curabitur dignissim molestie laoreet. Nullam eu blandit nisl. Mauris scelerisque finibus elit, vel posuere turpis maximus at.</p>
-                <p>Vivamus non magna cursus, sagittis arcu eget, porttitor elit. Suspendisse potenti. Integer nec diam quis orci egestas finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis tellus lacus, sagittis luctus lobortis eget, vehicula non ligula. Quisque non ipsum at orci mattis pellentesque. Phasellus leo sem, ultrices varius finibus vestibulum, commodo ut magna.</p>
-                <p>In diam lacus, congue vitae aliquet nec, laoreet vitae eros. Maecenas ac tempus lacus. Sed placerat, odio eu aliquet gravida, elit neque ultricies ligula, at pharetra mi nulla ac nulla</p>
+                <p>Niedawno skończyłam kurs w infoShare Academy, zdobyłam ogrom wiedzy, którą wciąż chcę poszerzać. Programowanie daje mi ogromną satysfakcję, uwielbiam tworzyć "coś z niczego". Największą przyjemność sprawia mi praca nad UI, tworzenie layoutu oraz dopracowywanie najmniejzych szczegółów, aby aplikacja była jak najbardziej czytelna dla odbiorcy a także przyjemna pod kątem wizualnym.</p>
+
+                <div>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#skills" aria-controls="umiejętności" role="tab" data-toggle="tab">Umiejętności</a></li>
+                        <li role="presentation"><a href="#experience-tab" aria-controls="doświadczenie zawodowe" role="tab" data-toggle="tab">Doświadczenie zawodowe</a></li>
+                        <li role="presentation"><a href="#hobby" aria-controls="hobby" role="tab" data-toggle="tab">Hobby</a></li>
+                        <li role="presentation"><a href="#links" aria-controls="links" role="tab" data-toggle="tab">Linki</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="skills">...</div>
+                        <div role="tabpanel" class="tab-pane" id="experience-tab">...</div>
+                        <div role="tabpanel" class="tab-pane" id="hobby">...</div>
+                        <div role="tabpanel" class="tab-pane" id="links">
+                            linked-in:
+                            github:
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-2"></div>
         </div>
     </div>
+
+    <!--Experience-->
 </main>
 
 <footer>
     <div class="container-fluid footer">
         <div class="row">
-            <div class="col-xs-12 footer-content">
+            <div class="col-xm-12 footer-content">
                 <h5>Skontaktuj się ze mną!</h5>
                 <ul class="footer-list">
                     <li><span class="fas fa-map-marker-alt"></span> Gdańsk</li>
                     <li>
-                        <span class="fas fa-mobile-alt"></span> 789 456 123
-                    </li>
-                    <li>
                         <span class="far fa-envelope"></span> <a href="mailto:klebba.ewa@gmail.com">klebba.ewa@gmail.com</a>
                     </li>
-                    <li><span class="fab fa-linkedin-in"> <a href="#">linkedin</a></span> </li>
-                    <li><span class="fab fa-github"> <a href="#">github</a></span> </li>
+                    <li><span class="fab fa-linkedin-in"></span> <a href="www.linkedin.com/in/ewa-klebba" target="_blank">linkedin</a> </li>
+                    <li><span class="fab fa-github"></span> <a href="https://github.com/ewkaK" target="_blank">github</a> </li>
                 </ul>
+
+                <div style="float:right" class="footer-copyright">
+                    <p>Copyright&copy; 2018 Ewa Klebba</p>
+                </div>
+                <div style="clear:both"></div>
             </div>
-        </div>
-        <div class="row footer-copyright">
-            <div style="float:right">
-                <p>Copyright&copy; 2018 Ewa Klebba</p>
-            </div>
-            <div style="clear:both"></div>
         </div>
     </div>
 </footer>

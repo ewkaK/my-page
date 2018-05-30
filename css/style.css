@@ -7,6 +7,7 @@ Kolorki:
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .navbar .navbar-brand{
@@ -49,7 +50,7 @@ nav.navbar {
 }
 
 #hero{
-    height: 75vh;
+    min-height: 75vh;
     background: url(../img/background.jpg) center fixed;
     background-size: cover;
 }
@@ -64,7 +65,7 @@ nav.navbar {
 }
 
 .hero-text{
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
@@ -155,14 +156,19 @@ nav.navbar {
 }
 .footer a{
     color: #ccc9c9;
+    text-decoration: none;
+}
+.footer a:hover, .footer a:focus{
+    color: #43b2e7;
 }
 .footer h3, .footer h4, .footer h5 {
     display: inline-block;
     font-size: 1.2em;
     margin: 10px;
+    color: #43b2e7;
 }
 .footer-copyright p{
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin: 0;
     font-size: 0.9em;
 }
